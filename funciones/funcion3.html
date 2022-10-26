@@ -5,12 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    
+    
+    <title>Calculadora</title>
 </head>
 <body>
     <div class="regreso">
         <a href="../index.html" >Inicio</a>
     </div>
+    <div class="titulo_cal">
+        <h1>Calculadora</h1>
+    <div class="formulario">
+            <div class="numero_uno" >
+                <label for="numero1" >Ingrese numero 1</label> <br>
+                <input type="number" id="num_uno" >
+            </div>
+            <div class="numero_dos">
+                <label for="numero2" >Ingrese numero 2</label><br>
+                <input type="number" id="num_dos"><br>
+            </div>
+            <div class="operaciones">
+                <input type="button" value="Sumar" id="suma">
+                <input type="button" value="Restar" id="resta">
+                <input type="button" value="Multiplicar" id="multiplica">
+                <input type="button" value="Dividir" id="divide">
+            </div>
+            <div class="alerta" id="errores">
+                
+            </div>
+
+    </div>
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="../js/codigo3.js"></script>
+        
+        
+    </div>
+
 </body>
-<link rel="stylesheet" href="../js/codigo3.js">
+
 </html>

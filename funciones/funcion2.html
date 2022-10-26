@@ -5,14 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Piedra, Papel y Tijera</title>
 </head>
 <body>
     <div class="regreso">
         <a href="../index.html" >Inicio</a>
     </div>
-    <div class="imc">
-        <h1>Pacientes con indice de masa corporal alterado</h1>
+    
+    <!-- <div class="titulo">
+        <h1>Piedra, Papel y Tijera</h1>
+    </div>
+
+        <div class="cant">
+            <h2>Cuantas veces deseas jugar</h2>
+            <input type="number" placeholder="# de veces" id="cant">
+            <button id="jugar">Jugar</button>
+            <p>Recuerda que debes elegir un numero impar de veces a jugar para tener un ganador</p>    
+        </div> -->
+        <div class="titulos">
+        <h2 >Haz tu eleccion</h2>
+        </div>
+    <div class="tablero" id="table">
+        <div class="eleccion">
+            <div class="eleccion" >
+                <img src="../img/piedra.jpg" alt="">
+                <button id="piedra" >Escogeme</button>
+            </div>
+            <div class="eleccion" >
+                <img src="../img/papel.jpg" alt="">
+                <button id="papel">Escogeme</button>
+            </div>
+            <div class="eleccion" >
+                <img src="../img/tijera.jpg" alt="">
+                <button id="tijera">Escogeme</button>
+            </div>
+        </div>        
+    </div>
+    <div class="resultado" id="result">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="../js/codigo2.js"></script>
     </div>
 </body>
